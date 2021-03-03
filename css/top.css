@@ -1,0 +1,250 @@
+body {
+	background: #FF7800;
+}
+
+p, dl {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+a:link {
+	color: #4C4C4C;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	color: #4C4C4C;
+}
+header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+nav {
+	float: right;
+}
+section {
+	width: 100%;
+}
+#navlogo {
+	margin: 10px 10px;
+}
+nav ul li {
+	float: left;
+	padding-left: 42px
+}
+.nNews a {
+	display: block;
+	width: 48px;
+	height: 15px;
+	background: url(../img/news.png) no-repeat 0 0;
+	margin-top: 30px;
+}
+.nBusiness a {
+	display: block;
+	width: 68px;
+	height: 15px;
+	background: url(../img/business.png) no-repeat 0 0;
+	margin-top: 30px;
+}
+.nAbout a {
+	display: block;
+	width: 78px;
+	height: 16px;
+	background: url(../img/about.png) no-repeat 0 0;
+	margin-right: 32px;
+	margin-top: 29px;
+}
+nav ul li a:hover {
+	background-position: 0 bottom;
+}
+#navback {
+	position: fixed;
+	z-index: 998;
+	width: 100%;
+	height: 60px;
+	background-color: #FFFFFF;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+h1 {
+	margin: 0 auto;
+	width: 380px;
+	padding: 66px 0 0 0;
+}
+#topSection {
+	background: #FFFFFF url(../img/top_bg.jpg) no-repeat center center;
+}
+#topSection div {
+	margin: 0 auto;
+	width: 70px;
+}
+#newsSection {
+	background: #FF7800;
+	color: #FFFFFF;
+}
+#newsSection a {
+	color: #FFFFFF;
+}
+#newsSection article {
+	margin: 0 auto;
+	width: 988px;
+	padding: 66px 0 0 0;
+}
+#newsSection article h2 {
+	float: left;
+}
+#newsSection article dl {
+	margin: 85px 0 0 41px;
+	float: left;
+}
+#news dt {
+	float: left;
+	width: 7.5em;
+	padding-bottom: 5px;
+}
+#news dd {
+	margin-left: 7.5em;
+	padding-bottom: 5px;
+}
+#businessSection {
+	background: #FFFFFF;
+}
+#businessSection article {
+	margin: 0 auto;
+	width: 910px;
+	padding: 66px 0 0 0;
+}
+#businessSection article h3 {
+	padding: 35px 0 5px 0;
+}
+.clipContM {
+	width: 445px;
+	background: url(../img/clip.gif) no-repeat top right;
+	padding-top: 8px;
+	float: left;
+	margin-bottom: 10px;
+}
+.contM {
+	border: 6px solid #FF7800;
+	padding: 30px 30px;
+}
+.contM img {
+	float: left;
+	margin: 0 30px 17px 0;
+}
+.contM h4 {
+	color: #FF7800;
+	font-size: 22px;
+	line-height: 1.2em;
+	overflow: hidden;
+}
+.contL h4 {
+	color: #FF7800;
+	font-size: 22px;
+	line-height: 1.2em;
+	overflow: hidden;
+	padding: 0 0 7px 0;
+}
+.lead {
+	font-size: 15px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.semLink {
+	font-size: 15px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: right;
+	padding: 20px 0 0 0;
+}
+.semLink a {
+	color: #FF7800;
+}
+.subTit {
+	clear: both;
+	color: #FF7800;
+	font-size: 12px;
+	padding-bottom: 3px;
+}
+.subDet {
+	font-size: 11px;
+	line-height: 1.5em;
+}
+.insLead {
+	padding: 3px 0;
+}
+.insTit {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 3px 0;
+}
+.insContact {
+	text-align: right;
+	padding-top: 20px;
+}
+.clipContS {
+	width: 290px;
+	background: url(../img/clip.gif) no-repeat top right;
+	padding-top: 8px;
+	float: left;
+}
+.contS {
+	border: 6px solid #FF7800;
+	padding: 30px 30px;
+}
+.clipContL {
+	width: 910px;
+	background: url(../img/clip.gif) no-repeat top right;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+.contL {
+	border: 6px solid #FF7800;
+	padding: 30px 30px;
+}
+.contL img {
+	float: left;
+	margin: 0 30px 0 0;
+}
+.itlead {
+	font-size: 13px;
+	overflow: hidden;
+}
+.backtop {
+	margin: 0 auto;
+	width: 910px;
+	text-align: right;
+	margin-bottom: 27px;
+}
+#aboutSection {
+	background: #FF7800;
+	color: #FFFFFF;
+}
+#aboutSection a {
+	color: #FFFFFF;
+}
+#aboutSection article {
+	margin: 0 auto;
+	width: 910px;
+	padding: 66px 0 0 0;
+}
+#aboutSection h2 {
+	padding: 0 0 74px 0;
+}
+.aboutLogo img {
+	float: left;
+	margin: 0 80px 0 127px;
+}
+.aboutLogo div {
+	overflow: hidden;
+}
+.aboutLogo div p {
+	padding: 0 0 20px 0;
+}
+.copy {
+	margin: 25px 0 0 0;
+}

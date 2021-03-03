@@ -1,0 +1,210 @@
+p, dl {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+a:link {
+	color: #4C4C4C;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	color: #4C4C4C;
+}
+header {
+	width: 910px;
+	margin: 0 auto;
+	padding: 20px 0 35px 0;
+}
+article {
+	width: 910px;
+	margin: 0 auto;
+}
+#lead {
+	color: #FF7800;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 0 5px 0;
+}
+#title {
+	background: url(../img/detail_headbg.jpg) no-repeat 0 0;
+	height: 262px;
+	position: relative;
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 42px;
+	text-shadow: 2px 2px 3px rgba(130, 46, 0, 0.66);
+	padding: 60px 0 0 50px;
+}
+#title a {
+	position: absolute;
+	bottom: 4px;
+	right: 7px;
+	display: block;
+	width: 292px;
+	height: 77px;
+	background: url(../img/detail_application.png) no-repeat 0 0;
+}
+#title a:hover {
+	background-position: 0 bottom;
+}
+#titleLead {
+	height: 137px;
+}
+#titleLead p {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 29px 0 0 160px;
+}
+#title span {
+	width: 113px;
+	height: 137px;
+	display: block;
+	position: absolute;
+	top: 247px;
+	left: 25px;
+	background: url(../img/detail_addressbook.png) no-repeat;
+}
+hr {
+	margin: 0 0;
+	border: 0;
+	height: 6px;
+	background: url(../img/hr.gif) no-repeat;
+}
+#info {
+	padding: 30px 20px;
+}
+#info dl {
+	float: left;
+	width: 435px;
+}
+#info dt {
+	color: #FF7800;
+	font-weight: bold;
+	float: left;
+	width: 7.5em;
+	padding-bottom: 5px;
+}
+#info dd {
+	margin-left: 7.5em;
+	padding-bottom: 5px;
+}
+#info dd small {
+	font-size: 12px;
+}
+#mapPack {
+}
+#mapCap {
+	color: #FF7800;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding-bottom: 5px;
+}
+#mapCanvas {
+	width: 413px;
+	height: 208px;
+	border: 1px solid #B3B3B3;
+}
+#inst {
+	padding: 30px 20px;
+}
+#inst h2 {
+	float: left;
+}
+.instPic {
+	float: left;
+	padding: 0 20px 0 33px;
+}
+.instName {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.instDetail {
+	font-size: 12px;
+	overflow: hidden;
+}
+#application a {
+	display: block;
+	width: 503px;
+	height: 118px;
+	margin: 30px auto 35px auto;
+	background: url(../img/detail_btn.jpg) no-repeat 0 0;
+}
+#application a:hover {
+	background-position: 0 bottom;
+}
+#cont {
+	position: relative;
+	padding-top: 24px;
+}
+#cont span {
+	width: 123px;
+	height: 128px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	background: url(../img/content_icn.png) no-repeat;
+}
+#cont h2 {
+	line-height: 0;
+}
+#contList {
+	border-left: 6px solid #FF7800;
+	border-right: 6px solid #FF7800;
+	border-bottom: 6px solid #FF7800;
+	padding: 45px 70px 0 84px;
+}
+#contList h3 {
+	background: url(../img/content_icn.gif) no-repeat;
+	padding: 0 0 8px 45px;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+#contList p {
+	padding: 0 0 45px 45px;
+}
+#recommend {
+	margin: 30px 0 30px 0;
+	position: relative;
+	border-radius: 10px;
+	background-color: #FFFEB7;
+	border:solid 1px #FFFEB7;
+	padding: 16px 15px 15px 15px;
+}
+#recommend span {
+	width: 106px;
+	height: 111px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	background: url(../img/recommend_icn.png) no-repeat;
+}
+#recommend ul {
+	padding: 25px 0 0 80px;
+}
+#recommend li {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 20px 38px;
+	background: url(../img/recommend_icn.gif) no-repeat;
+}
+.backtop {
+	margin: 0 auto;
+	width: 910px;
+	text-align: right;
+	padding: 20px 0;
+}
+footer {
+	border-top: 1px solid #CACACA;
+	padding: 12px 0 15px 0;
+	font-size: 12px;
+}
+.copy {
+	margin: 3px 0 0 0;
+}

@@ -1,0 +1,80 @@
+p {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+a:link {
+	color: #4C4C4C;
+	text-decoration: none;
+}
+a:visited {
+	color: #4C4C4C;
+}
+header {
+	width: 910px;
+	margin: 0 auto;
+	padding: 20px 0 35px 0;
+}
+article {
+	width: 910px;
+	margin: 0 auto;
+}
+h1{
+	padding-bottom: 20px;
+}
+.clipCont {
+	width: 290px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+}
+.cont {
+	border: 6px solid #FF7800;
+	padding: 4px 4px;
+}
+.cont a {
+	display: block;
+}
+.clipCont span {
+	width: 20px;
+	height: 38px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 16px;
+	background: url(../img/clip.png) no-repeat;
+}
+h2 {
+	font-size: 20px;
+	line-height: 1.4em;
+	padding: 15px 25px 5px 25px;
+}
+.cont p {
+	padding: 0 25px 10px 25px;
+	font-size: 15px;
+}
+.insContact {
+	text-align: right;
+	padding-top: 7px;
+}
+.backtop {
+	margin: 0 auto;
+	width: 910px;
+	text-align: right;
+	padding: 20px 0;
+}
+footer {
+	border-top: 1px solid #CACACA;
+	padding: 12px 0 15px 0;
+	font-size: 12px;
+}
+.copy {
+	margin: 3px 0 0 0;
+}
+
+footer a:link {
+	text-decoration: underline;
+}
+footer a:hover {
+	text-decoration: none;
+}
